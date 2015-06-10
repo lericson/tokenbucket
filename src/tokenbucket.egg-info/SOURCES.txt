@@ -1,0 +1,6 @@
+setup.py
+src/tokenbucket.py
+src/tokenbucket.egg-info/PKG-INFO
+src/tokenbucket.egg-info/SOURCES.txt
+src/tokenbucket.egg-info/dependency_links.txt
+src/tokenbucket.egg-info/top_level.txt
