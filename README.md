@@ -11,9 +11,10 @@ activity.
 Enables sharing across different processes and servers, useful for rate
 limiting a shared resource (like a Web API.)
 
-    from tokenbucket import TokenBucket
+    from tokenbucket import SharedTokenBucket
 
-    tb = TokenBucket(rate=1.0, maximum=5)
+    tb = SharedTokenBucket(rate=1.0, maximum=5)
+
     tb.use_memcached_key('my_shared_token_bucket')
     # or
     tb.use_memcached_key('my_shared_token_bucket', client=mc)
